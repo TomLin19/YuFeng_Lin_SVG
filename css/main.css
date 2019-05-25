@@ -1,0 +1,175 @@
+body{
+	font-size:16px;
+  background-color:lightblue;
+}
+
+.hidden{
+	display:none;
+}
+
+.main-headline{
+	text-align:center;
+	margin:40px 0 60px;
+	font-size:2.5rem;
+}
+
+p{
+  font-family:verdana, sans-serif;
+  font-size:12px;
+  line-height:18px;
+  letter-spacing:1px;
+  color:black;
+  width:580px;
+  margin:auto; 
+}
+
+h1{
+  font-family:garamond, serif;
+  letter-spacing:2px;
+  font-size:27px;
+  font-weight:lighter;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding-bottom:15px;
+  border-bottom:solid thin;
+}
+
+h3{
+  font-family:verdana,sans-serif;
+  font-size:18px;
+  color:#393939;
+  font-weight:lighter;
+  letter-spacing:1px;
+  margin-top:25px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-bottom:25px;
+  border-bottom:solid thin #c5c5c5;
+  border-top:solid thin #c5c5c5;
+}
+
+#wrapper{
+  margin:auto;
+  padding-top:150px;
+  padding-bottom:300px;
+  width:1500px;
+  background-color:lightblue;
+}
+
+#Japanese-badges{
+  margin:auto;
+  text-align:center;
+}
+
+#culture{
+  margin-top:30px;
+}
+
+#culture-badges, #icon-badges{
+  margin:auto;
+  width:680px;
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+#culture-badges section, #icon-badges section{
+  width:120px;
+}
+
+#samurai1, #samurai2, #samurai3, #samurai4, #samurai5, #samurai6, #samurai7, #samurai8 #samurai9, #samurai10,{
+  cursor:pointer;
+  height:100px;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+/* next two stylings for SVG opacity change. I didn't even know CSS had a limit for how many elements can be put into a style before now. Silly rule. */
+
+.samurai1-st1:hover, .samurai2-st1:hover, .samurai3-st1:hover, .samurai4-st1:hover, .samurai5-st1:hover, .samurai6-st1:hover, .samurai7-st1:hover, .samurai8-st1:hover, .samurai9-st1:hover, .samurai10-st1:hover,{
+  opacity:0.5;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.
+}
+
+/*general background of all svg icons changed*/
+
+.samurai1-st0:hover, .samurai2-st0:hover, .samurai3-st0:hover, .samurai14-st0:hover, .samurai5-st0:hover, .samurai6-st0:hover, .samurai7-st0:hover, .samurai8-st0:hover, .samurai9-st0:hover, .samurai10-st0:hover,{
+  opacity:1;
+  fill:#fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  z-index: -1; /* hide shadow behind image */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+/* div backgrounds for icons begins here */
+
+#samurai1-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai2-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai3-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai4-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai5-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai6-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai7-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai8-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai9-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#samurai10-badge{
+  background-color:lightblue;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+
